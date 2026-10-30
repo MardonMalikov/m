@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+
+h1 {
+    display: flex;
+    width: 192px;
+    height: 39px;
+    font-size: 32px;
+    margin-left: 550px;
+    margin-top: 30px;
+    color: #6E728E;
+}
+
+.hero {
+    display: flex;
+    gap: 24px;
+    margin-left: 525px;
+    margin-top: 25px;
+}
+
+.yoqqich {
+    width: 56px;
+    height: 32px;
+}
+
+.hero__text {
+    margin-top: 5px;
+    color: darkgray;
+}
+
+.card {
+    width: 350px;
+    height: 501px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: -25px;
+}
+
+.cardbox {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+    width: 116px;
+    height: 28px;
+    font-size: 18px;
+    margin-left: 116px;
+    margin-top: 54px;
+}
+
+.number {
+    color: white;
+    font-size: 72px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.number__one {
+    color: white;
+    font-size: 40px;
+    width: 26px;
+    height: 49px;
+}
+
+.chiziq {
+    width: 288px;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+    margin-left: 30px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+button{
+    width: 288px;
+    height: 44px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-size: 13px;
+    background-color: #FFFFFF;
+}
+.text1{
+    color: #6E728E;
+    font-size: 20px;
+}
+.chiziq1{
+    width: 288px;
+    height: 1px;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.img{
+    width: 300px;
+    height: 550px;
+    margin: 0 auto;
+    z-index: -1;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -190px;
+}
+@media (max-width: 375px) {
+    .container {
+        background-color: white;
+    }
+
+}
